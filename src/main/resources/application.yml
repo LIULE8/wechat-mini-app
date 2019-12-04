@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: wechat-mini-app
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.17.0.1/mini
+    username: root
+    password: 2A8vx
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  jooq:
+    sql-dialect: mysql
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 9090
