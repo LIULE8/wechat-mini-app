@@ -1,0 +1,13 @@
+POST http://203.195.237.78:9090/test
+Content-Type: application/json
+
+{
+  "name": "leo"
+}
+
+###
+
+GET http://203.195.237.78:9090/test
+Accept: application/json
+
+###
