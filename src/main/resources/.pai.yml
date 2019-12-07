@@ -1,3 +1,0 @@
-deployScripts:
-  start:
-    - java -jar wechat.jar
