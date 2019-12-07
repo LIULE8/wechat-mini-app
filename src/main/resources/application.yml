@@ -3,11 +3,12 @@ spring:
     name: wechat-mini-app
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///mini
 #    url: jdbc:mysql://172.17.0.1:3306/mini
-    url: jdbc:mysql://192.168.217.100:3306/mini
+#    url: jdbc:mysql://192.168.217.100:3306/mini
     username: root
-#    password: 2A8vx
-    password: 123456
+    password: 2A8vx
+#    password: 123456
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     database: mysql

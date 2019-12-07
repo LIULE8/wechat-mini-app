@@ -1,4 +1,4 @@
-POST http://203.195.237.78:9090/test
+POST https://berry-oe8zzr3p.pai.tcloudbase.com/test
 Content-Type: application/json
 
 {
@@ -7,7 +7,22 @@ Content-Type: application/json
 
 ###
 
-GET http://203.195.237.78:9090/test
+GET https://berry-oe8zzr3p.pai.tcloudbase.com/test
+Accept: application/json
+
+###
+
+
+POST http://localhost:3000/test
+Content-Type: application/json
+
+{
+  "name": "leo"
+}
+
+###
+
+GET http://localhost:3000/test
 Accept: application/json
 
 ###
